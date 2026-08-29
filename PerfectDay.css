@@ -1,0 +1,24 @@
+body{
+    font-family: "Chewy", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+button{
+    font-family: "Chewy", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    height: 3%;
+    border-radius: 35vh;
+    margin: 0.5ch;
+}
+
+h1{
+    text-align: center;
+    background-color: lightblue;
+    padding: 2%;
+}
+
+#Done{
+    float: right;
+}
