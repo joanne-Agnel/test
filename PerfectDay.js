@@ -169,3 +169,8 @@ function Other(){
         clickedButton.style.backgroundColor = "white"
     }
 }
+
+function Done() {
+    const clickedButton = event.currentTarget;
+    console.log(interest);
+}
