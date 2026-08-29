@@ -81,3 +81,25 @@ async def get_db():
     async with pool.acquire() as connection:
         async with connection.transaction():
             yield connection
+
+@router.post("/add")
+
+def add_user_to_db(name,location,interest)
+    connection = psycopg.connect("your_neon_connection_string_here")
+    cursor = connection.cursor()
+    sql_query = "INSERT INTO users (name,location,interest) "
+    
+    user_data = (name,location,interest)
+    
+    try:
+        cursor.execute(sql_query, user_data)
+        connection.commit()
+        print(f"Successfully added user: {name}")
+    except Exception as e:
+        print(f"Error saving to database: {e}")
+        connection.rollback() 
+        finally:
+        connection.close()
+
+
+    
