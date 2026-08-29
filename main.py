@@ -1,9 +1,9 @@
+from contextlib import asynccontextmanager
 from fastapi import FastAPI, Depends
 import uvicorn
 import json
 from fastapi.middleware.cors import CORSMiddleware
 from Backend.database import connect_db, disconnect_db
-from contextlib import asynccontextmanager
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):

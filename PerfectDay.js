@@ -1,56 +1,173 @@
 let interest = [];
+var clicked = false
 
 function Art(){
-    interest.push("Art");
-    
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("Art");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("Art")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 
 function Music(){
-    interest.push("Music");
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("Music");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("Music")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 
 function Coding(){
-    interest.push("Coding");
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("Coding");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("Coding")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 
 function Dance(){
-    interest.push("Dance");
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("Dance");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("Dance")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 
 function Baking(){
-    interest.push("Baking");
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("Baking");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("Baking")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 
 function Fashion(){
-    interest.push("Fashion");
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("Fashion");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("Fashion")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 
 function Languages(){
-    interest.push("Languages");
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("Languages");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("Languages")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 
 function DIY(){
-    interest.push("DIY");
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("DIY");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("DIY")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 
 function Photography(){
-    interest.push("Photography");
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("Photography");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("Photography")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 
 function Writing(){
-    interest.push("Writing");
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("Writing");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("Writing")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 
 function Hiking(){
-    interest.push("Hiking");
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("Hiking");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("Hiking")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 
 function Sports(){
-    interest.push("Sports");
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("Sports");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("Sports")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 
 function Other(){
-    interest.push("Other");
+    const clickedButton = event.currentTarget;
+    if (!clicked) {
+        clicked = true;
+        interest.push("Other");
+        clickedButton.style.backgroundColor = "grey"
+    }else{
+        clicked = false;
+        interest.pop("Other")
+        clickedButton.style.backgroundColor = "white"
+    }
 }
 //function click(){
 
@@ -79,7 +196,7 @@ buttons.forEach(button => {
 // Shared function
 function handleButtonClick(event) {
     // Get the button that was clicked
-    const clickedButton = event.currentTarget;
+    
     interest.push(event.target.textContent.trim());
     console.log(interest);
 }

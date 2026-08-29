@@ -1,0 +1,30 @@
+body{
+    font-family: "Chewy", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    background-color: lightyellow;
+}
+
+h1{
+    background-color: lightblue;
+    padding: 3vh;
+    font-size: 50;
+    text-align: center;
+}
+
+h3{
+    font-size: 35;
+}
+
+a{
+    font-size: 20;
+    float: right;
+    border: 10px lightblue solid ;
+    background-color: lightblue;
+}
+
+p{
+    background-color: lightpink;
+    padding: 20;
+    border-radius: 20%;
+}
