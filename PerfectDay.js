@@ -2,7 +2,30 @@ let interest = ["heart"];
 
 function Art(){
     interest.push("Art");
-    document.getElementById("hi").innerHTML = interest;
+}
+
+function Music(){
+    interest.push("Music");
+}
+
+function Coding(){
+    interest.push("Coding");
+}
+
+function Dance(){
+    interest.push("Dance");
+}
+
+function Baking(){
+    interest.push("Baking");
+}
+
+function Fashion(){
+    interest.push("Fashion");
+}
+
+function Gardening(){
+    interest.push("Gardening");
 }
 
 
