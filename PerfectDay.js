@@ -10,12 +10,10 @@ const interest = [];
       //console.log(textContent);
     //})
 //)
+var click = document.getElementById("click");
 
-const Click = document.getElementById("click");
-
-// Add EventListener to btn
-Click.addEventListener("click", function () {
+click.addEventListener("click", function () {
     var content = event.target.textContent.trim();
     interest.push(content);
-    document.getElementsByClassName(Done).innerHTML = content;
+    document.getElementById(Done).innerHTML = content;
 });
