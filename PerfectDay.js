@@ -2,6 +2,7 @@ let interest = [];
 
 function Art(){
     interest.push("Art");
+    
 }
 
 function Music(){
