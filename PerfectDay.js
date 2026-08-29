@@ -5,11 +5,12 @@ function Art(){
     const clickedButton = event.currentTarget;
     if (!clicked) {
         clicked = true;
-        interest.push("Art");
+        interest.push("Art","Art Gallery");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("Art").style.color = "black"
     }else{
         clicked = false;
-        interest.pop("Art")
+        interest.pop("Art", "Art Gallery")
         clickedButton.style.backgroundColor = "white"
     }
 }
@@ -18,11 +19,12 @@ function Music(){
     const clickedButton = event.currentTarget;
     if (!clicked) {
         clicked = true;
-        interest.push("Music");
+        interest.push("Music", "Concert");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("Music").style.color = "black"
     }else{
         clicked = false;
-        interest.pop("Music")
+        interest.pop("Music", "Concert")
         clickedButton.style.backgroundColor = "white"
     }
 }
@@ -31,11 +33,12 @@ function Coding(){
     const clickedButton = event.currentTarget;
     if (!clicked) {
         clicked = true;
-        interest.push("Coding");
+        interest.push("Coding", "Hackathon");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("Coding").style.color = "black"
     }else{
         clicked = false;
-        interest.pop("Coding")
+        interest.pop("Coding", "Hackathon")
         clickedButton.style.backgroundColor = "white"
     }
 }
@@ -44,11 +47,12 @@ function Dance(){
     const clickedButton = event.currentTarget;
     if (!clicked) {
         clicked = true;
-        interest.push("Dance");
+        interest.push("Dance", "Street Dance Battle");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("Dance").style.color = "black"
     }else{
         clicked = false;
-        interest.pop("Dance")
+        interest.pop("Dance", "Street Dance Battle")
         clickedButton.style.backgroundColor = "white"
     }
 }
@@ -57,11 +61,12 @@ function Baking(){
     const clickedButton = event.currentTarget;
     if (!clicked) {
         clicked = true;
-        interest.push("Baking");
+        interest.push("Baking", "Baked goods donations");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("Baking").style.color = "black"
     }else{
         clicked = false;
-        interest.pop("Baking")
+        interest.pop("Baking", "Baked goods donations")
         clickedButton.style.backgroundColor = "white"
     }
 }
@@ -70,8 +75,9 @@ function Fashion(){
     const clickedButton = event.currentTarget;
     if (!clicked) {
         clicked = true;
-        interest.push("Fashion");
+        interest.push("Fashion", "");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("Fashion").style.color = "black"
     }else{
         clicked = false;
         interest.pop("Fashion")
@@ -85,6 +91,7 @@ function Languages(){
         clicked = true;
         interest.push("Languages");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("Languages").style.color = "black"
     }else{
         clicked = false;
         interest.pop("Languages")
@@ -98,6 +105,7 @@ function DIY(){
         clicked = true;
         interest.push("DIY");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("DIY").style.color = "black"
     }else{
         clicked = false;
         interest.pop("DIY")
@@ -111,6 +119,7 @@ function Photography(){
         clicked = true;
         interest.push("Photography");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("Photography").style.color = "black"
     }else{
         clicked = false;
         interest.pop("Photography")
@@ -124,6 +133,7 @@ function Writing(){
         clicked = true;
         interest.push("Writing");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("Writing").style.color = "Black"
     }else{
         clicked = false;
         interest.pop("Writing")
@@ -137,6 +147,7 @@ function Hiking(){
         clicked = true;
         interest.push("Hiking");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("Hiking").style.color = "black"
     }else{
         clicked = false;
         interest.pop("Hiking")
@@ -150,6 +161,7 @@ function Sports(){
         clicked = true;
         interest.push("Sports");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("Sports").style.color = "black"
     }else{
         clicked = false;
         interest.pop("Sports")
@@ -163,6 +175,7 @@ function Other(){
         clicked = true;
         interest.push("Other");
         clickedButton.style.backgroundColor = "grey"
+        document.getElementById("Other").style.color = "black"
     }else{
         clicked = false;
         interest.pop("Other")

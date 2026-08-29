@@ -30,3 +30,8 @@ h1{
 #Done{
     float: right;
 }
+
+.Activites button{
+    background-color: lightyellow;
+    color: lightyellow;
+}

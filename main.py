@@ -26,7 +26,3 @@ app.add_middleware(
 def home():
     return {"message": "backend is running"}
 
-@app.head("/db")
-def store():
-    
-
