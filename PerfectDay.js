@@ -24,11 +24,33 @@ function Fashion(){
     interest.push("Fashion");
 }
 
-function Gardening(){
-    interest.push("Gardening");
+function Languages(){
+    interest.push("Languages");
 }
 
+function DIY(){
+    interest.push("DIY");
+}
 
+function Photography(){
+    interest.push("Photography");
+}
+
+function Writing(){
+    interest.push("Writing");
+}
+
+function Hiking(){
+    interest.push("Hiking");
+}
+
+function Sports(){
+    interest.push("Sports");
+}
+
+function Other(){
+    interest.push("Other");
+}
 //function click(){
 
 //}
