@@ -1,4 +1,4 @@
-let interest = ["heart"];
+let interest = [];
 
 function Art(){
     interest.push("Art");
