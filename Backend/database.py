@@ -1,9 +1,20 @@
 import json
+import asyncpg
+from fastapi import APIrouter, Depends, HTTPException
+
+router = APIrouter(prefix="/interests", tags=["interests"])
+
+@router.get("/interests")
+
+async def getInterests(
+    
+)
+
 # Reading a JavaScript file
-with open('PerfectDay.js', 'r') as js_file:
+with open('PerfectDay.json', 'r') as js_file:
    content = js_file.read()
-# Print or process the content
-print(content)
+
+with open('PerfectDay.json', 'a') as file:
 
 try:
     with open("data.json", "r") as file:
